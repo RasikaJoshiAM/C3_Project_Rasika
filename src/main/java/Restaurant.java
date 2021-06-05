@@ -74,14 +74,14 @@ public class Restaurant {
 
     public Integer getTotalItemPrice(List<String> itemList){
         int sum = 0;
-        /*
+        
         for(String str : itemList){
             for(Item item : menu){
                 if(item.getName().equals(str)){
                     sum+= item.getPrice();
                 }
             }
-        }*/
+        }
         return sum;
     }
 
